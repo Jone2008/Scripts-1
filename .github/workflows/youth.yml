@@ -1,10 +1,10 @@
 
-name: 中期看点
+name: 中青看点
 
 on:
   workflow_dispatch:
   schedule:
-     - cron: '* 35 * * *'
+     - cron: '*/35 * * * *'
   watch:
     types: started
 jobs:
