@@ -34,7 +34,6 @@ on:
           npm install
       - name: '运行 【中青看点】'
         run: |
-          cd ~/Scripts-1
           node Task/youth.js
         env:
           YOUTH_HEADER: ${{ secrets.YOUTH_HEADER }}
